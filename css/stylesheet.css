@@ -1,0 +1,58 @@
+:root {
+    --main-color: #0E7490;
+    --sub-color: #E6F4F7;
+  }
+
+  h1{
+    margin-left: 40px;
+  }
+
+  #newTask{
+    background-color: var(--sub-color);
+    border-color: var(--main-color);
+    height: 30px;
+    margin-left: 40px;
+    padding-left: 10px;
+    border-radius: 5%;
+  }
+
+  #addBtn{
+    background-color: var(--main-color);
+    color:white;
+    height: 34px;
+    width: 34px;
+    border:#0E7490 solid 2px;
+    border-radius: 10%;
+  }
+
+/* タスクリスト */
+  ol {
+    list-style-type: none;
+  }
+
+  li input,
+  li p  {
+    display: inline-block;
+  }
+
+  li p  {
+    width: 145px;
+    margin-left: 10px;
+  }
+
+  .chkBtn {
+    background-color: var(--main-color);
+    transform: scale(2);
+  }
+
+  .delBtn{
+    background:rgba(255,255,255,0);
+    border: rgba(255,255,255,0);
+    font-size: 20px;
+    color:gray;
+  }
+
+  .complete{
+    color:gray;
+    text-decoration: line-through;
+  }
